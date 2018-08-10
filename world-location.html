@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ALMAMET India- World-Location</title>
+		<!-- For Google -->
+		<meta name="author" content="Almamet" />
+		<meta name="application-name" content="Almamet India" />
+		<meta name="description" content="Map representing the Almamet office in different parts of world." />
+		<!-- <meta name="keywords" content="Almamet India, World Location, Magnesium, Hot Metal Desulphurization, Reagents for Desulphurization, Reagents for Chemical Industry, Reagents for Pyrotechnical Industry, Fluidized Lime, HMDS, Magnesium Granuels, Magnesium Chips, Magnesium Rasping, Mg97, Magnesium powder for Pyrotechnical,Magnesium Turnings/raspings for Grignard reaction,Magnesium turnings/raspings for pharmaceutical,KM 115 " /> -->
+		<meta name="keywords" content="Almamet,Almamet India, World Location,About Us, Map" />
+		<meta name="robots" content="Index,Follow" />
+
+		<!-- Bootstrap and demo CSS -->
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/demo-v2.css" rel="stylesheet">
+		<link rel="stylesheet" href="fonts/glyphicons-halflings-regular.eot"/>
+		<link href='http://fonts.googleapis.com/css?family=Lato|Raleway' rel='stylesheet' type='text/css'>
+		<!-- <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'> -->
+		<!-- Yamm styles-->
+		<!--<link href="yamm/yamm.css" rel="stylesheet">
+    <link href="yamm/myyamm.css" rel="stylesheet">-->
+		<!--less files -->
+		<!-- <link rel="stylesheet/less" href="less/world-location.less"/> -->
+		<link rel="stylesheet/less" href="less/index-v1.less"/>
+		<link rel="stylesheet/less" href="less/world-location-v1.less"/>
+		<script src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=visualization"></script>
+		<script src="js/less.js" type="text/javascript"></script>
+		<script src="js/modernizr-2.6.2.min.js" type="text/javascript"></script>
+		<!--[if lt IE 9]>
+		<script src="https://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+		<script>window.jQuery || document.write('<script src="js/IE9.js"><\/script>')</script>
+		<![endif]-->
+	</head>
+	<body onload="initialize();">
+		<header>
+			<div class="logo">
+				<a href="index.html" id="logo"><img src="img/Almamet-main-logo.png"/></a>
+			</div>
+		</header>
+		<!-- Demo navbar -->
+    <nav class="navbar navbar-default header-bar">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="pull-left navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-menu">
+            <li class="active">
+              <a href="index.html">HOME</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTS<span class="caret"></span></a>
+              <ul class="dropdown-menu header-bar-dropdown">
+                <li>
+                  <a href="magnesium.html">MAGNESIUM</a>
+                </li>
+                <li>
+                  <a href="calcium-carbide.html">CALCIUM CARBIDE</a>
+                </li>
+                <li>
+                  <a href="fluidize-lime.html">FLUIDIZED LIME</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="consulting.html">CONSULTING</a>
+            </li>
+            <li class='dropdown'>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US<span class="caret"></span></a>
+              <ul class='dropdown-menu header-bar-dropdown'>
+                <li>
+                  <a tabindex="-1" href="almamet-group.html"> ALMAMET GROUP </a>
+                </li>
+                <li>
+                  <a tabindex="-1" href="management.html"> MANAGEMENT </a>
+                </li>
+                <li>
+                  <a tabindex="-1" href="vision-values.html"> VISION &amp; VALUES </a>
+                </li>
+                <li>
+                  <a tabindex="-1" href="world-location.html"> WORLD LOCATION </a>
+                </li>
+                <li>
+                  <a tabindex="-1" href="gallery.html"> GALLERY </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href='contact.html'>CONTACT</a>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+		<div class="item row worldmap_content-container">
+			<div class="col-md-10 col-lg-10 col-sm-8 slim slide-container-header">
+				<div class="content-container">
+					<h1>World-wide Locations</h1>
+					<div id="map_canvas"></div>
+				</div>
+			</div>
+			<div class="col-md-2 col-lg-2 col-sm-4">
+				<div class="content-container text-conatiner">
+					<div style="position: absolute; top: 32px;}">
+						<p>
+						<p class="textareamap">
+							<div class="default">
+								<h1 style="font-size: 24px; color: #ff6633; padding-left: 10px; padding-right: 10px; margin-bottom:-15px;}">INDIA</h1>
+								<h2 style="font-size: 18px; color: #ff6633; padding-left: 10px; padding-right: 10px;}">NEW DELHI</h2>
+								<div class="bodyContent">
+									ALMAMET India Pvt. Ltd.
+									<br>
+					        31, 1st Floor,
+									<br>
+					        Jasola Vihar, Pocket - 2,
+									<br>
+                  New Delhi - 110025,
+                  <br>
+					        Tel: 011 - 41555845 , Fax: 011 - 41555845.
+									<br>
+									<p>
+										AKSHAR GHAI- Managing Director
+										<br>
+										Email ID: aksharghai@almamet.com
+									</p>
+								</div>
+							</div>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="js/index.js"></script>
+		<script>
+			var map;
+			function initialize() {
+				var mapOptions = {
+					zoom : 2,
+					minZoom : 2,
+					/*panControl : false,*/
+					/*draggable:false,*/
+					scaleControl: false,
+					streetViewControl : false,
+					mapTypeControl : false,
+					center : new google.maps.LatLng(28.61466498875735, 6.9428),
+					mapTypeId : google.maps.MapTypeId.TERRAIN
+				};
+				map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+
+				// Create a <script> tag and set the USGS URL as the source.
+				var script = document.createElement('script');
+				// (In this example we use a locally stored copy instead.)
+				//script.src = 'http://earthquake.usgs.gov/earthquakes/feed/geojsonp/2.5/week';
+				script.src = './map_data/map-places.json';
+
+				document.getElementsByTagName('head')[0].appendChild(script);
+			}
+
+			// Loop through the results array and place a marker for each
+			// set of coordinates.
+			window.eqfeed_callback = function(results) {
+				var infowindow = new google.maps.InfoWindow({
+					maxWidth : 400
+				});
+				for (var i = 0; i < results.features.length; i++) {
+					var feature = results.features[i];
+					var contentString = '<div id="content">' + '<div id="siteNotice">' + '</div>' + '<h1 id="countryHeading" class="countryHeading">' + (feature.info.country || "Default") + '</h1>' +'<h1 id="firstHeading" class="firstHeading">' + (feature.info.title || "Default") + '</h1>' + '<div class="bodyContent">' + (feature.info.body || "Default") + '</div>' + '</div>';
+					var coords = feature.geometry.coordinates;
+					var latLng = new google.maps.LatLng(coords[1], coords[0]);
+					var marker = new google.maps.Marker({
+						position : latLng,
+						map : map,
+						title : feature.properties.title
+					});
+					marker["content"] = contentString;
+					google.maps.event.addListener(marker, 'click', function() {
+						//infowindow.setContent(this["content"]);
+						//infowindow.open(map, this);
+						$('.textareamap').empty().append(this["content"]);
+						$('.default').hide();
+					});
+				}
+			};
+			$(function() {
+				window.prettyPrint && prettyPrint();
+				$(document).on('click', '.yamm .dropdown-menu', function(e) {
+					e.stopPropagation();
+				});
+			});
+		</script>
+		<script type="text/javascript">
+						$(function($) {
+			//detect the width on page load
+			$(document).ready(function() {
+			var current_width = $(window).width();
+			//do something with the width value here!
+			if (current_width < 768) {
+			//$(".navnohover").hide();
+			$(".navhover").click(function() {
+			$(this).find(".navnohover").toggle();
+			return false;
+			});
+
+			}
+			});
+			//update the width value when the browser is resized (useful for devices which switch from portrait to landscape)
+			$(window).resize(function() {
+			var current_width = $(window).width();
+			//do something with the width value here!
+			if (current_width < 768) {
+			$(".navhover").click(function() {
+			$(this).find(".navnohover").toggle();
+			return false;
+			});
+			}
+			});
+		</script>
+		<!-- tweet and share :)-->
+		<script>
+			! function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (!d.getElementById(id)) {
+					js = d.createElement(s);
+					js.id = id;
+					js.src = "https://platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js, fjs);
+				}
+			}(document, "script", "twitter-wjs");
+		</script>
+	</body>
+	<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] ||
+			function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-52483454-1', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+</html>

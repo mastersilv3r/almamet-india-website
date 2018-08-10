@@ -1,0 +1,349 @@
+eqfeed_callback({
+  "type": "FeatureCollection",
+  "features" : [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "FRANCE, Toulouse"
+      },
+      "info": {
+      	country : "FRANCE",
+      	title : "TOULOUSE",
+      	body : "ALMAMET France SAS<br> 31010 Toulouse , France<br> Email: solano@almamet.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.444209000000000700,
+          43.604652000000000000
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "CHINA, Beijing"
+      },
+      "info": {
+      	country : "CHINA",
+      	title : "BEIJING",
+      	body : "ALMAMET GmbH <br>Beijing Representive Office<br> 48 Dongzhimenwai Street, Dongcheng<br> district, Beijing, 100027, China<br> Email: deng@almamet.com<br> eddychu@almamet.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.34521484375001,
+          39.90973623453719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "INDIA, New Delhi"
+      },
+      "info": {
+      	country : "INDIA",
+      	title : "NEW DELHI",
+      	body : "ALMAMET India Pvt. Ltd. <br> 31, 1st Floor, <br> Jasola Vihar, Pocket - 2, <br> New Delhi - 110025, <br> Tel: 011 - 41555845, Fax: 011 - 41555845. <br> <p> AKSHAR GHAI- Managing Director <br> Email ID: aksharghai@almamet.com</p>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.19406127929688,
+          28.61466498875735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "USA, New Castle"
+      },
+      "info": {
+      	country : "USA",
+      	title : "NEW CASTLE",
+      	body : "ALMAMET USA, INC.<br> 4149 Bristol Lane<br> New Castle, PA 16105, USA<br> Email: jackman@almamet.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.347009000000010000,
+          41.003671900000000000
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ROMANIA, Tarnaveni"
+      },
+      "info": {
+      	country : "ROMANIA",
+      	title : "TARNAVENI",
+      	body : "ALMAMET S.R.L. (Romania)<br> Tarnaveni, County Mures, 3225, Romania<br> Email: ignat@almamet.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2700,
+          46.3297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "CHINA, Tianjin"
+      },
+      "info": {
+      	country : "CHINA",
+      	title : "TIANJIN",
+      	body : "ALMAMET Tianjin Magnesium Industry Co. Ltd.<br> Beichen District, Tianjin, 300401, China<br> Email: deng@almamet.com<br> eddychu@almamet.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.158203125,
+          39.13006024213511
+        ]
+      }
+    },
+     /*{
+      "type": "Feature",
+      "properties": {
+        "title": "SOUTH AFRICA, Brakpan"
+      },
+      "info": {
+      	country : "SOUTH AFRICA",
+      	title : "BRAKPAN",
+      	body : "GfE-MIR Alloys & Minerals Pty Ltd (South Africa)<br> PO Box 3036, Dalview, 1544<br> 2 Atomic Str, Vulcania, Brakpan, 1554<br> T +27 11 740 1034"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.347655900000063000,
+         -26.249012500000000000
+        ]
+      }
+    },*/
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "UK, Warrington"
+      },
+      "info": {
+      	country : "UK",
+      	title : "WARRINGTON",
+      	body : "ALMAMET Representation UK<br> Warrington, WA5 3AJ Cheshire, UK<br> Email: hennessey.mike@btinternet.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.596950099999958000,
+           53.390044100000000000
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "TURKEY, Cerkezkoy"
+      },
+      "info": {
+      	country : "TURKEY",
+      	title : "CERKEZKOY",
+      	body : "MME - Magnezyum ve Metal Tozlari Endüstri<br> ve Ticaret A.S. <br> Çerkezköy, 59500, Turkey<br> Email:  imrag@magnezyummetal.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.99960136413574,
+          41.28690082095987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "UKRAINE, Mariupol"
+      },
+      "info": {
+      	country : "UKRAINE",
+      	title : "MARIUPOL",
+      	body : "ALMAMET Ukraine Ltd.<br> Mariupol, 87500, Ukraine<br> Email: lyubov_rudakova@yahoo.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.59727478027344,
+          47.110677290057126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "GERMANY, Ratingen"
+      },
+      "info": {
+      	country : "GERMANY",
+      	title : "RATINGEN",
+      	body : "ALMAMET GmbH (Ratingen)<br> Halskestr. 5a, 40880 Ratingen, Germany<br> Email: ratingen@almamet.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8463706970214835,
+          51.297671477124084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "UK, Gainsborough"
+      },
+      "info": {
+      	country : "UK",
+      	title : "GAINSBOROUGH",
+      	body : "Materials Handling Agents<br> Freightmaster Ltd.<br> Gainsborough, N.Lincs. DN 21 4BD, UK<br> Email: richard@freightmaster.ltd.uk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.767,
+          53.383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "SPAIN, Aviles"
+      },
+      "info": {
+      	country : "SPAIN",
+      	title : "AVILES",
+      	body : "Asturiana de Aleaciones S.A.<br> 33400 Avilés, Spain<br> Tel: +34 98 512 90 38"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.921974182128906,
+          43.55601276435827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "GERMANY, Ainring"
+      },
+      "info": {
+      	country : "GERMANY",
+      	title : "AINRING",
+      	body : "ALMAMET GmbH<br> Gewerbestraße 5a, 83404 Ainring, Germany<br> Tel: +49 - 8654 77 318-0<br> Fax: +49 - 8654 56 05<br> Email: info@almamet.com<br> www.almamet.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9428,
+          47.8136
+       ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "SLOVAKIA, FORTISCHEM NOVÁKY"
+      },
+      "info": {
+      	country : "SLOVAKIA",
+      	title : "FORTISCHEM NOVÁKY",
+      	body : "ALMAMET’s Principals<br> Fortischem a.s.<br> Nováky, 97271, Slovakia<br> Tel: +421 46 568 1111"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+	18.540765,
+	48.717944
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "title": "RUSSIA, Nizhny Tagil"
+      },
+      "info": {
+      	country : "RUSSIA",
+      	title : "NIZHNY TAGIL",
+      	body : "ZMR - Zavod Metallurgitscheskij Reagentov<br> Nizhny Tagil, Sverdlovsk, 622025, Russia<br> Email: borodulin.gleb@yandex.ru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+	59.990681999999990000,
+	57.924705000000000000
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "title": "FRANCE, Hasnon"
+      },
+      "info": {
+      	country : "FRANCE",
+      	title : "HASNON",
+      	body : "ALMAMET’s Sales Agencies<br> Valprosid<br> Hasnon, 59178, France<br> Email: valprosid@wanadoo.fr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         3.3875,
+         50.4216666667
+        ]
+      }
+    },
+
+     {
+      "type": "Feature",
+      "properties": {
+        "title": "RUSSIA, Solikamsk"
+      },
+      "info": {
+      	country : "RUSSIA",
+      	title : "SOLIKAMSK",
+      	body : "SZD - Solikamskij Zavod Desulfuratorov<br> Solikamsk Region Perm, 618500, Russia<br> Email: vgv@szd.ru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.7500,
+          59.6433
+        ]
+      }
+    },
+		{
+			"type": "Feature",
+			"properties": {
+				"title": "ALMAMET South Africa (Pty) Ltd"
+	    },
+	 		"info": {
+				country: "ALMAMET South Africa (Pty) Ltd",
+				title: " ",
+				body: "37 Dougie Morkel Street<br> Unitaspark, Vereeniging<br> ZA 1939 Gauteng"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					27.8913823,
+          -26.640089
+				]
+			}
+		}
+  ]
+})

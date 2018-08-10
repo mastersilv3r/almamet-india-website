@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Beijing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.34521484375001,
+          39.90973623453719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Delhi,India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.19406127929688,
+          28.61466498875735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Tianjin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.158203125,
+          39.13006024213511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Cerkezkoy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.99960136413574,
+          41.28690082095987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Mariupol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.59727478027344,
+          47.110677290057126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ratingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8463706970214835,
+          51.297671477124084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Grimsby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.078277587890625,
+          53.56824917834782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Aviles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.921974182128906,
+          43.55601276435827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ainring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9428, 
+          47.8136
+       ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "title": "Novaky"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+	18.540765,          
+	48.717944
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "title": "Nizhny Tagil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+	59.990681999999990000,
+	57.924705000000000000
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "title": "Hasnon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         3.3875,
+         50.4216666667
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "title": "Solikamsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.7500,
+          59.6433
+        ]
+      }
+    }
+  ]
+}

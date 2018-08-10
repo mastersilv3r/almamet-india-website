@@ -1,0 +1,145 @@
+
+.navbar-default .navbar-nav > li > a {
+	color: #CCCCCC;
+	margin-right: 8px;
+}
+.nav > li > a {
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+}
+.navbar-nav > li > a {
+	line-height: 25px;
+}
+
+.panel-group {
+	background-color: #666666;
+	width: 390px;
+
+}
+.panel-group .panel {
+	border-radius: 0px;
+}
+.panel-body ul {
+	margin-top: 0px;
+}
+.panel-body {
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+.panel-title {
+	font-size: 14px;
+}
+.panel-group .panel-heading {
+	background-color: #666666;
+	height: 40px;
+	padding: 13px 20px;
+	border-radius: 0px;
+}
+.panel-title a {
+	text-decoration: none;
+	display: block;
+}
+.panel-bg-orange {
+	background-color: #FF6633;
+}
+.panel-group .panel-heading:hover, .panel-group .panel-heading:focus, .panel-group .panel-heading:focus {
+	background-color: #FF6633;
+}
+
+.panel {
+	border: 0px ! important;
+}
+
+.dropdown-menu {
+	padding: 0px;
+	margin-left: 15px;
+	/*background-color:transparent;*/
+	/*border:0px;*/
+}
+.dropdown .dropdown-content {
+	padding: 0px;
+}
+ul.nav > li > a {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #CCCCCC
+}
+.aboutus_section > li > a {
+	background-color: #666666;
+	padding: 10px 20px;
+	color: white;
+}
+.aboutus_section > li > a:hover, .aboutus_section > li > a:focus {
+	background-color: #FF6633;
+	background-image: none;
+}
+#accordion ul li p {
+	color: #333333;
+}
+#accordion .panel-title {
+	color: white;
+}
+#accordion ul li a {
+	color: white;
+}
+.panel-group .panel+ .panel {
+	margin-top: 0px;
+}
+
+.navbar.yamm {
+	/*position: absolute;*/
+	width: 612px;
+	height: 45px;
+	margin: auto;
+	/*box-shadow: 5px 5px 5px #222222;*/
+	/*border-radius: 5px;*/
+	margin-top: 64px;
+}
+.navbar.yamm .container {
+	padding: 0px;
+	background-color: #333333;
+	height: 46px;
+	border-radius: 4px;
+	height: 45px;
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.navbar-collapse {
+	padding-left: 10px;
+	padding-right: 0px;
+}
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-default .mycustomnav > li > a:hover, .navbar-default .mycustomnav > li > a:focus {
+	color: #FF6633;
+	background-color: transparent;
+}
+.navbar-default .mycustomnav > .open > a, .navbar-default .mycustomnav > .open > a:hover, .navbar-default .mycustomnav > .open > a:focus {
+	color: #FF6633;
+	background-color: transparent;
+}
+
+@media (max-width: 767px) {
+	.navbar.yamm {
+		width: 100%;
+		margin: auto;
+		margin-top: 75px;
+	}
+	.panel-group {
+		padding-left: 20px;
+		width: inherit;
+	}
+	html .aboutus_section > li > a {
+		background-color: #666666;
+		padding: 10px 20px;
+		color: white;
+	}
+	html .aboutus_section > li > a:hover, .aboutus_section > li > a:focus {
+		background-color: #FF6633;
+		background-image: none;
+	}
+}

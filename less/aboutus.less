@@ -1,0 +1,102 @@
+
+@import "variable.less";
+img{
+  width:100%;
+}
+.margin-bottom{
+  margin-bottom:40px;
+}
+.carousel-control {
+  width:8%;
+}
+.carousel-control .glyphicon-chevron-right {
+top: 48%;
+}
+.carousel-control .glyphicon-chevron-left {
+top: 48%;
+}
+.carousel-indicators li{
+  border:5px solid;
+}
+.carousel-indicators li:hover,.carousel-indicators li.active{
+  color:@blue;
+  //background-color:@blue;
+  border:5px solid #029bce;
+}
+.carousel-indicators{
+ bottom:100%; 
+}
+img{
+  //height: 197px;
+  //overflow:hidden;
+  width:100%;
+}
+.gallery-pad{
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:10px;
+  //height: 197px;
+  overflow:hidden;
+} 
+
+@media (min-width: 768px)and(max-width: 1024px) {
+     #almamet-carousel{      
+                      height:60px;
+                      padding:8px;
+                      width:746px;
+                      }
+    #almamet-carousel li{ 
+                      width:19.5%;
+                      //height:auto;
+                      margin:0px;
+                      margin-bottom:5px;
+                      text-align:left;
+                      }
+                      .home_content-container{
+                                             padding-left:60px;
+                                             padding-top:20px;
+                                             width:95%
+                        }
+}
+@media (max-width:768px){
+  #almamet-carousel{      
+                     height:80px;
+                     padding:8px;
+                     width:330px;
+                     //margin-left:15%;
+                    }
+  #almamet-carousel li{ 
+                       width:44.5%;
+                       height:auto;
+                       margin:0px;
+                       margin-bottom:5px;
+                       text-align:left;
+                       }
+                       .home_content-container{
+                                             padding:80px;
+                                             padding-top:20px;
+                                             width:95%
+                        }
+}
+
+@media (min-width:600px) and (max-width:768px){
+  #almamet-carousel{      
+                     height:60px;
+                     padding:8px;
+                     width:510px;
+                    }
+  #almamet-carousel li{ 
+                       width:30.5%;
+                       height:auto;
+                       margin:0px;
+                       margin-bottom:5px;
+                       text-align:left;
+                       }
+                       .home_content-container{
+                                             padding:80px;
+                                             padding-top:20px;
+                                             width:95%
+                        }
+}
+
+
