@@ -69,3 +69,7 @@ footer {
 .home-text {
   margin-top: 80px;
 }
+
+.navbar {
+  min-width: 640px
+}

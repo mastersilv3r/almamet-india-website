@@ -180,7 +180,7 @@
 							</ul>
 						</li>
 						<li class="dropdown">
-							<a href="consulting.html">CONSULTING</a>
+							<a href="consulting.html">ENGINEERING</a>
 						</li>
 						<!-- Classic dropdown -->
 						<li class="dropdown navhover">
