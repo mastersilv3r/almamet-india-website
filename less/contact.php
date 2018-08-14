@@ -187,7 +187,7 @@
 							<a href="#" data-toggle="dropdown" class="dropdown-toggle">ABOUT US<b class="caret"></b></a>
 							<ul role="menu" class="dropdown-menu navnohover navnohovers aboutus_section">
 								<li>
-									<a tabindex="-1" href="almamet-group.html"> ALMAMET GROUP </a>
+									<a tabindex="-1" href="timeline.html"> ALMAMET GROUP </a>
 								</li>
 								<li>
 									<a tabindex="-1" href="management.html"> MANAGEMENT </a>
