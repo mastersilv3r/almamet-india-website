@@ -8,7 +8,6 @@
 
 /* layout */
 body {
-  padding-bottom: 40px;
   /*color: #666;*/
 }
 pre { margin: 0; padding: 10px 20px !important;}
@@ -72,4 +71,25 @@ footer {
 
 .navbar {
   min-width: 640px
+}
+
+.ytvideo-wrap {
+	width: 100%;
+	max-width: 640px;
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
 }
