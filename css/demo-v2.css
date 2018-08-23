@@ -94,3 +94,8 @@ footer {
 	width:100%;
 	height:100%;
 }
+
+.contact-person {
+	color: grey; 
+	font-weight: bold;
+}
