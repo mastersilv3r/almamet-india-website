@@ -127,6 +127,7 @@ img{
 }
 
 .main-logo{
+  margin-top: -18px;
   //width:250px;
 }
 .logo{
@@ -224,13 +225,16 @@ display: none;
 li.navhover:hover .navnohovers {
  display:inline-block;
 }
-@media (max-width: 1024px) {
-  .item.management_content-container {
-    padding-top: 45px;
-    padding-left: 25px;
-    padding-right:25px;
-    width: 100%;
-  }
+.subsidiary {
+  position:relative;
+  font-size: 16px;
+  margin-bottom: -12px;
+}
+
+.tagline {
+  font-weight:bold; 
+  color:black; 
+  margin-top: -8px;
 }
 
 @media (min-width: 768px) {
@@ -266,6 +270,20 @@ li.navhover:hover .navnohovers {
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
+  }
+  .item.management_content-container {
+    padding-top: 45px;
+    padding-left: 25px;
+    padding-right:25px;
+    width: 100%;
+  }
+  .tagline {
+	font-weight:bold; 
+	color:black; 
+	margin-top: -6px;
+  }
+  .subsidiary {
+    margin-bottom: -8px;
   }
 }
 
