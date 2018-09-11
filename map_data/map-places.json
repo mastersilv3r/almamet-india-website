@@ -1,24 +1,7 @@
 eqfeed_callback({
   "type": "FeatureCollection",
   "features" : [
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "FRANCE, Toulouse"
-      },
-      "info": {
-      	country : "FRANCE",
-      	title : "TOULOUSE",
-      	body : "ALMAMET France SAS<br> 31010 Toulouse , France<br> Email: solano@almamet.com"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.444209000000000700,
-          43.604652000000000000
-        ]
-      }
-    },
+    
     {
       "type": "Feature",
       "properties": {
@@ -218,24 +201,7 @@ eqfeed_callback({
         ]
       }
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "SPAIN, Aviles"
-      },
-      "info": {
-      	country : "SPAIN",
-      	title : "AVILES",
-      	body : "Asturiana de Aleaciones S.A.<br> 33400 Avilés, Spain<br> Tel: +34 98 512 90 38"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -5.921974182128906,
-          43.55601276435827
-        ]
-      }
-    },
+   
     {
       "type": "Feature",
       "properties": {
@@ -290,25 +256,7 @@ eqfeed_callback({
         ]
       }
     },
-     {
-      "type": "Feature",
-      "properties": {
-        "title": "FRANCE, Hasnon"
-      },
-      "info": {
-      	country : "FRANCE",
-      	title : "HASNON",
-      	body : "ALMAMET’s Sales Agencies<br> Valprosid<br> Hasnon, 59178, France<br> Email: valprosid@wanadoo.fr"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-         3.3875,
-         50.4216666667
-        ]
-      }
-    },
-
+     
      {
       "type": "Feature",
       "properties": {
