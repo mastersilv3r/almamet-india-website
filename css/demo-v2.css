@@ -63,7 +63,6 @@ footer {
     font-size: 1em;
     text-align: center;
     line-height: 2;
-    background-color: #e5e1ea;
     border: 1px solid #d1d1d1;
   }
 
@@ -94,6 +93,6 @@ footer {
 }
 
 .contact-person {
-	color: black; 
+	color: #46514D; 
 	font-weight: bold;
 }

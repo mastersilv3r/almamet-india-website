@@ -11,49 +11,11 @@ body{
   font-size:16px;
   line-height: 1.5;
 }
-h1,h2,h3,h4{
-  font-family: 'Lato', sans-serif;
-}
-.header-bar-dropdown > li > a {
-  background-color: #666666;
-  padding: 10px 20px;
-  color: white;
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
-}
-.header-bar-dropdown > li > a:hover {
-  background-color: #FF6633;
-}
-.header-bar-dropdown {
-  padding: 0;
-}
-.navbar-default .navbar-toggle {
-  margin-left: 1.3em;
-}
-
-.navbar-default .navbar-nav > li > a {
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  color: #ccc;
-}
-
-.navbar-default .navbar-nav > li > a:focus,
-.navbar-default .navbar-nav> .open > a,
-.navbar-default .navbar-nav> .open > a:hover,
-.navbar-default .navbar-nav> .active > a,
-.navbar-default .navbar-nav> .active > a:hover,
-.navbar-default .navbar-nav > li > a:hover {
-  color: #FF6633;
-  background-color: transparent;
-}
-.navbar-default {
-  background-color: #333333;
-  border-color: #333333;
-}
 a{
-  font-size:14px;
-  color:blue;
+  font-size:16px;
+  color: #246EB9;
 }
+
 h1{
   font-size:40px;
   font-weight:bold;
@@ -111,14 +73,15 @@ img{
   height:460px;
 }
 .management_content-container{
-  padding-top:60px;
+  padding-top:30px;
   padding-left:80px;
   width:95%
 }
 .slide-container-header{
-    p{
-        margin-top:20px;
-      }
+  p {
+    margin-top:20px;
+  }
+  
 }
 .main-logo img{
   width: 400px;
@@ -146,7 +109,7 @@ img{
   font-family: 'Lato', sans-serif;
 }
 .timeline-title{
-  color:@orange;
+  color:#F5EE9E;
   line-height: 1em;
   font-family: 'Lato', sans-serif;
 }
@@ -156,13 +119,13 @@ img{
   border-bottom:2px dashed @orange;
   opacity:0.6;
 }
-h4,h2,h3{
-   color:@orange;
-  }
-h3 span{
+
+h3.management-name span{
   font-size: 16px;
-  color:@darkgrey;
-  }
+  display: block;
+  margin-top: 8px;
+  color: #46514D;
+}
 .management-name{
   margin-bottom:8px;
 }
@@ -171,34 +134,9 @@ h3 span{
  padding-right:10px;
 }
 .slide-container-header{
-    h2{
-        margin-top:50px;
-        margin-bottom:0px;
-        color:@orange;
-        //text-shadow: 0px 1px 0px rgba(0, 0, 1, 0.43);
-       }
-    h1{
-        margin-top:50px;
-        margin-bottom:0px;
-        color:@orange;
-        //text-shadow: 0px 1px 0px rgba(0, 0, 1, 0.43);
-       }
-    h3{
-        margin-top:35px;
-        margin-bottom:0px;
-        color:@orange;
-        //text-shadow: 0px 1px 0px rgba(0, 0, 1, 0.43);
-       }
-    h4{
-        color:@orange;
-        margin-top:40px;
-        margin-bottom:0px;
-        //text-shadow: 0px 1px 0px rgba(0, 0, 1, 0.43);
-       }
-    p{
-        margin-top:20px;
-      }
-
+  p {
+    margin-top:20px;
+  }
 }
 .slim{
   padding-left:0px;
@@ -208,12 +146,11 @@ h3 span{
   padding-left:30px;
   padding-right:35px;
 }
-.margin-top{
-  color:@orange;
+.underline {
+  text-decoration: underline;
 }
-.margin-top-bottom{
-  margin-top:50px;
-  margin-bottom:50px;
+.justify {
+ text-align: justify;
 }
 .flexslider.no-border{
   margin:0px;
@@ -233,7 +170,7 @@ li.navhover:hover .navnohovers {
 
 .tagline {
   font-weight:bold; 
-  color:black; 
+  color:#46514D; 
   margin-top: -8px;
 }
 
@@ -256,6 +193,10 @@ li.navhover:hover .navnohovers {
     color: #ccc;
   }
 
+  .text-pad {
+    padding-left: 0;
+    padding-right: 0;
+  }
   .logo {
     margin-bottom: 20px;
   }
@@ -325,4 +266,44 @@ li.navhover:hover .navnohovers {
 
 .flexslider {
   background:#000;
+}
+h1,h2,h3,h4{
+  font-family: 'Lato', sans-serif;
+  color: #F5EE9E;
+}
+.header-bar-dropdown > li > a {
+  background-color: #666666;
+  padding: 10px 20px;
+  color: #F5EE9E;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+.header-bar-dropdown > li > a:hover {
+  background-color: #FF6633;
+}
+.header-bar-dropdown {
+  padding: 0;
+}
+.navbar-default .navbar-toggle {
+  margin-left: 1.3em;
+}
+
+.navbar-default .navbar-nav > li > a {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #F5EE9E;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav> .open > a,
+.navbar-default .navbar-nav> .open > a:hover,
+.navbar-default .navbar-nav> .active > a,
+.navbar-default .navbar-nav> .active > a:hover,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #FF6633;
+  background-color: transparent;
+}
+.navbar-default {
+  background-color: #778899;
+  border-color: #778899;
 }
