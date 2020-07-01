@@ -28,7 +28,7 @@ eqfeed_callback({
       "info": {
       	country : "INDIA",
       	title : "NEW DELHI",
-      	body : "ALMAMET India Pvt. Ltd. <br> 31, 1st Floor, <br> Jasola Vihar, Pocket - 2, <br> New Delhi - 110025, <br> Tel: 011 - 41555845. <br> <p> AKSHAR GHAI- Managing Director <br> Email ID: aksharghai@almamet.com</p>"
+      	body : "<h4 style=\"font-size: 15px\">Registered Office</h4> B-6, Ansal Tower 38, <br> Nehru Place, New Delhi South - 110019, India <br> <h4 style=\"font-size: 15px\">Corporate Office</h4> 403-404, 4th Floor, <br> Tower-1, Assotech Business Cresterra, <br> Sector 135, Noida, Uttar Pradesh - 201305 <br> Tel: 0120- 7105963 <br> <p> AKSHAR GHAI- Managing Director <br> Email ID: aksharghai@almamet.com </p>"
       },
       "geometry": {
         "type": "Point",
